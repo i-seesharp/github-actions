@@ -1,2 +1,2 @@
-const name = 'Aaranya'
-setTimeout(() => console.log(name), 5000)
+const statement = process.env.MY_SECRET || 'Secret not found'
+setTimeout(() => console.log(statement), 5000)
