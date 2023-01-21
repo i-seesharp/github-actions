@@ -11,5 +11,5 @@ jobs:
           node-version: '14'
       - name: Run Node.js app
         env:
-          - MY_SECRET: ${{ secret.MY_SECRET }}
+          MY_SECRET: ${{ secret.MY_SECRET }}
         run: node app.js
